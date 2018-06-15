@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* 
+Criado por Francisco Matelli | F5 Sites | www.f5sites.com
+
+Css INDEX:
+/* 1 - Structure of Header, Menu, Content, Sidebars and Footer *
+Float, height, width, padding, margin
+
+/* 2 - Structure and Design of isolated html itens *
+Widgets, Font-Face
+
+/* 3 - Pre-defined clases *
+h1, h2, h3, h4, h5, h6, p, a, a:hover, .centralized,
+
+/* 4 - General Class *
+used a lot of times
+
+*/
+
+*{text-decoration:none; margin:0; padding:0; border:0; list-style:none; font-family:Arial,Helvetica, sans-serif;}
+
+/* 1 - Structure of Header, Menu, Content, Sidebars and Footer */
+#menu {height:40px}
+.content {background:#FFFFFF url(images/main_background.jpg) top no-repeat; padding:40px 40px 30px 40px; margin-bottom:-10px;}
+#footer {background:#4c4840;} #footer p {color:#FFF}
+
+/* 2 - Structure and Design of isolated html itens */
+#ul-header-menu li {float:left; padding:10px 0 0 0; width:180px; text-align:center; font-weight:bold; font-size:16px; }
+#content-servicos li {float:left; margin:0 10px 0 10px;}
+
+/* 3 - Pre-defined clases */
+body {background-color:#ececd9}
+a  {color:#1f1a17}
+a:hover  {color:#99ae6a}
+h1 {font-size:35px; margin-bottom:20px; font-weight:normal;}
+p {font-size:13px; font-weight:bold; margin:10px 0;}
+
+/* 4 - General Class */
+.centralized {width:740px; margin:0 auto;}
+.padding10 {padding:10px 10px 10px 10px;}
+.float_r {float:right} .float_l {float:left}
+.clearboth {clear:both}
+.minheight800 {min-height:800px;}
